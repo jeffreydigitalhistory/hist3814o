@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="000style.xsl"?>
+<teiCorpus>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitised and Encoded copy of Negro Slavery by Zachary MacAulay</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Transcribed from digital copy available from Recovered Histories at
+                    http://www.recoveredhistories.org/pamphlet1.php?page=1&amp;orderby=MaxID&amp;catid=66</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Negro Slavery; or, A View of Some of the More Prominent Features of
+                            that State of Society, as it Exists in the United States of America and
+                            in the Colonies of the West Indies, Especially in Jamaica</title>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Printed for Hatchard and Son, Piccadilly, and J. and A. Arch,
+                            Cornhill</publisher>
+                        <distributor>Sold Also by W. Graphel, Church street, and G. and J. Robison,
+                            Castle Street, Liverpool.</distributor>
+                        <date when="1823">1823</date>
+                        <pubPlace>
+                            <settlement>London</settlement>
+                        </pubPlace>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Transcribed by a student of Digital History at Sheffield Hallam
+                        University</authority>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <biblScope>106</biblScope>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <p>3. In <placeName key="Kingston, Jamaica" ref="https://tools.wmflabs.org/geohack/geohack.php?params=17_58_17_N_76_47_35_W_type:city"> Jamaica </placeName> and the other islands the evidence of slaves is still wholly inadmissble, not merely in cases implicating their owner, but in all cases whatsoever, whether civil or criminal, affecting persons of free condition. - Any White man may inflict not only thirty-nine but three hundred and ninety lashes on a slave; <interp key="this is likely true although a bit unbeliveable" n="Slave codes regulated how slaves could be punished, usually going so far as to apply no penalty for accidentally killing a slave while punishing them" cert="medium" ref="https://en.wikipedia.org/wiki/Slave_codes">he may even murder the slave outright</interp>; yet, if the crime be not committed in the presence of other person of free condition willing to testify against him, he is secure from punishment. A thousand other slaves may have been present, but not one of the thousand would be permitted to offer his testimony in a court of justice against the criminal. The jury would not even be allowed the opportunity of judging of the credibility of his evidence. The mere circumstance of his being a slave would be at once an insurperable bar to his statements being heard. His evidence would be wholly inadmissible. It is equally so in all civil causes, even when the suit involves a question of personal freedom.</p>
+                <p>It is unnecessary to point out the enormities which must result from such a system. About 345,000 inhabitants of <placeName key="Kingston, Jamaica" ref="https://tools.wmflabs.org/geohack/geohack.php?params=17_58_17_N_76_47_35_W_type:city">Jamaica</placeName>, for examples, are thus shut out, by the operation of this universal principle of colonial law, from any fair hope of obtaining legal redress for any injury, whether civil or criminal, which they may sustain from any one of the privileged order, amounting, perhaps, to a fifteenth or twentieth part of the whole population; while the persons composing that order order have this farther pledge of immunity, that it is their common interest to discourage and defeat any attempts, on the part of the the slaves, to obtain the efficent protection of magistrates or of courts of justice.</p>
+                <p>4. The slaves in <placeName key="Kingston, Jamaica" ref="https://tools.wmflabs.org/geohack/geohack.php?params=17_58_17_N_76_47_35_W_type:city">Jamaica</placeName> and other colonies are still regarded by the law, and treated, in point of fact, not as human beings, but as chattels, and, as such, are liable to be sized and sold for the debts of their master, wtih as little</p>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
