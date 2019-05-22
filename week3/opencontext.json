@@ -1,0 +1,77 @@
+{
+  "@context": [
+    "https://opencontext.org/contexts/search.json",
+    "http://geojson.org/geojson-ld/geojson-context.jsonld"
+  ],
+  "id": "http://opencontext.org/search/.json?q=roman&obj=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoman_Empire",
+  "label": "Open Context API",
+  "dcmi:modified": "2019-05-22T17:50:21Z",
+  "dcmi:created": "2019-05-22T17:50:21Z",
+  "oai-pmh:earliestDatestamp": "2019-05-22T17:50:21Z",
+  "start": null,
+  "stop": null,
+  "dc-terms:temporal": null,
+  "oc-api:active-sorting": [
+    {
+      "id": "#current-sort-1",
+      "type": "oc-api:interest-score",
+      "label": "Interest score",
+      "oc-api:sort-order": "descending"
+    }
+  ],
+  "oc-api:has-sorting": [
+    {
+      "id": "https://opencontext.org/search/?obj=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoman_Empire&q=roman&sort=item--asc",
+      "json": "https://opencontext.org/search/.json?obj=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoman_Empire&q=roman&sort=item--asc",
+      "type": "oc-api:sort-item",
+      "label": "Item (type, provenance, label)",
+      "oc-api:sort-order": "ascending"
+    },
+    {
+      "id": "https://opencontext.org/search/?obj=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoman_Empire&q=roman&sort=item--desc",
+      "json": "https://opencontext.org/search/.json?obj=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoman_Empire&q=roman&sort=item--desc",
+      "type": "oc-api:sort-item",
+      "label": "Item (type, provenance, label)",
+      "oc-api:sort-order": "descending"
+    },
+    {
+      "id": "https://opencontext.org/search/?obj=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoman_Empire&q=roman&sort=updated--asc",
+      "json": "https://opencontext.org/search/.json?obj=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoman_Empire&q=roman&sort=updated--asc",
+      "type": "oc-api:sort-updated",
+      "label": "Updated",
+      "oc-api:sort-order": "ascending"
+    },
+    {
+      "id": "https://opencontext.org/search/?obj=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoman_Empire&q=roman&sort=updated--desc",
+      "json": "https://opencontext.org/search/.json?obj=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoman_Empire&q=roman&sort=updated--desc",
+      "type": "oc-api:sort-updated",
+      "label": "Updated",
+      "oc-api:sort-order": "descending"
+    }
+  ],
+  "oc-api:active-filters": [
+    {
+      "id": "#filter-1",
+      "oc-api:filter": "Current Text Search Filter",
+      "label": "Search Term: 'roman'",
+      "oc-api:remove": "https://opencontext.org/search/?obj=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoman_Empire",
+      "oc-api:remove-json": "https://opencontext.org/search/.json?obj=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoman_Empire"
+    },
+    {
+      "id": "#filter-2",
+      "oc-api:filter": "Links (in some manner) to object",
+      "label": "https://en.wikipedia.org/wiki/Roman_Empire",
+      "oc-api:remove": "https://opencontext.org/search/?q=roman",
+      "oc-api:remove-json": "https://opencontext.org/search/.json?q=roman"
+    }
+  ],
+  "oc-api:has-text-search": [
+    {
+      "id": "#textfield-keyword-search",
+      "label": "Filter by Text Search",
+      "oc-api:search-term": "roman",
+      "oc-api:template": "https://opencontext.org/search/?obj=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoman_Empire&q={SearchTerm}",
+      "oc-api:template-json": "https://opencontext.org/search/.json?obj=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoman_Empire&q={SearchTerm}"
+    }
+  ]
+}
